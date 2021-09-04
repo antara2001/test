@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#portrait{
+    display: none;
+}
+@media screen and (min-width:320px) and (max-width:767px) and (orientation:landscape){
+    #landscape{display: block;}
+    #portrait{display: none;}
+    
+}
+@media screen and (min-width:320px) and (max-width:767px) and (orientation:portrait){
+    #landscape{display: none;}
+    #portrait{display: block;}
+}
+.heading{
+    margin-left: 3.33%;
+    margin-top: 2.55%;
+    margin-bottom: 2.5%;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main{
+    background-image: url("/cover.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+    margin-left: 3.33%;
+    width: 66.25%;
+    height: 77.31%;
+    top: 11.57%;
+  
+}
+.chatbox{
+    position: absolute;
+    width: 25.898%;
+    background: linear-gradient(180deg, #37374B 0%, #27273A 100%);
+    border-radius: 5px;
+    margin-left: 0.80%;
+    left: 70.67%;
+    top: 11.57%;
+    height: 77.31%;
+}
+
+.btn1{
+    position: absolute;
+    left: 3.33%;
+    top: 92.59%;
+    width: 3.90%;
+    height: 3.98%;
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn2{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 8.22%;
+    top: 92.59%;
+
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn3{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 13.125%;
+    top: 92.59%;
+
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn4{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 40.729%;
+    top: 92.59%;
+
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn5{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 45.625%;
+    top: 92.59%;
+
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn6{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 50.52%;
+    top: 92.59%;
+
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn7{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 55.415%;
+    top: 92.59%;
+
+    background: linear-gradient(90.75deg, #E22128 19.86%, #961317 103.95%);
+    border: 2px solid #7C1317;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn8{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 82.96%;
+    top: 92.59%;
+
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn9{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left:87.86%;
+    top: 92.59%;
+
+    background: #2E2E42;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn10{
+    position: absolute;
+    width: 3.90%;
+    height: 3.98%;
+    left: 92.72%;
+    top: 92.59%;
+
+    background: #C2C2DC;
+    border: 1px solid #3B3C4E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
